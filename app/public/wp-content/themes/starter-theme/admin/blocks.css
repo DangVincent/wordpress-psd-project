@@ -1,0 +1,97 @@
+/* === Images-Text Styles Starts Here === */
+.images-text {
+    display: flex;
+    justify-content: space-between;
+    background-color: #020726;
+    color: #fff;
+    position: relative;
+    padding: 50px;
+    margin: 0 -50px;
+}
+.images-text__textContainer {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.images-text__imageContainer  {
+    width: 50%;
+}
+.images-text__imageContainer img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+.images-text__subheading {
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.images-text__subheading {
+    font-size: 2.6rem;
+}
+.images-text__textContainer p {
+    font-family: 'Barlow', sans-serif;
+    margin: 20px 0 25px;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+}
+.images-text__link {
+    color: #fff;
+    border: 3px solid#ff008b;
+    padding: 10px;
+}
+.images-text__link:hover {
+    background: #ff008b;
+    color: #020726;
+}
+/* === Images-Text Styles Ends Here === */
+/* === Title Text Styles Starts Here === */
+.title-text {
+    padding: 50px;
+    color: #fff;
+    margin: 50px 25px 0;
+    background: #020726;
+}
+.title-text__subheading {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3.5px;
+    font-size: 3rem; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.title-text p {
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+}
+/* === Title Text Styles Ends Here === */
+/* === Title Link Styles Starts Here === */
+.title-link {
+    text-align: center;
+    margin: 100px 0;
+}
+.title-link__subheading,
+.title-link__link {
+    color: #fff;
+}
+.title-link__subheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 3.5px;
+    margin-bottom: 50px;
+}
+.title-link__link {
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid#ff008b;
+    padding: 10px 15px;
+}
+.title-link__link:hover {
+    background: #ff008b;
+}
+/* === Title Link Styles Ends Here === */
